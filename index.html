@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Music Video Home / ទំព័រដើមវីដេអូចម្រៀង</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-music spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">ទំព័រដើមវីដេអូចម្រៀង / Music Video Home</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <div class="badge">🎵 UNIVERSE HUOKAING THARA • MUSIC VIDEO & VISUAL HUB</div>
+            <h2 class="km">វីដេអូចម្រៀង ស្នាដៃសំឡេង និងការផលិតវីដេអូ</h2>
+            <h2 class="en">Music Videos, Visual Tracks & Audio-Visual Hub</h2>
+            <p class="km">
+                ស្វាគមន៍មកកាន់ទំព័រដើមវីដេអូចម្រៀងរបស់ <strong>UNIVERSE HUOKAING THARA Group</strong> ក្រោមការដឹកនាំរបស់ លោក <strong>ហួកាំង ថារ៉ា</strong> និងលោក <strong>សេង ឆាត</strong> រួមជាមួយការរួមចំណែកពីលោក <strong>ជອນ រតនៈ</strong> និងក្រុមអ្នកសរសេរកូដជំនាញ។
+            </p>
+            <p class="en">
+                Welcome to the music video home of <strong>UNIVERSE HUOKAING THARA Group</strong> under <strong>Mr. Huokaing Thara</strong> and <strong>Mr. Seng Chhat</strong>, with contributions from <strong>Mr. Chorn Rothanak</strong> and our elite programmers & developers.
+            </p>
+
+            <!-- Search & Filter Bar -->
+            <div class="search-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="mvSearch" placeholder="ស្វែងរកវីដេអូចម្រៀង... / Search music videos, moods, visuals, releases...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="ballad">Ballad & Emotion / មនោសញ្ចេតនា</button>
+                    <button class="pill-btn" data-filter="upbeat">Upbeat & Rhythm / ចង្វាក់រស់រវើក</button>
+                    <button class="pill-btn" data-filter="visual">Visual & Cyber / បច្ចេកវិទ្យា</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Videos Grid -->
+        <section class="mv-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-compact-disc"></i>
+                <span class="km">វីដេអូចម្រៀងលេចធ្លោ (Featured Music Videos)</span>
+                <span class="en">Featured Music Videos</span>
+            </h3>
+
+            <div class="mv-grid" id="mvGrid">
+
+                <!-- MV 1 -->
+                <article class="mv-card featured" data-cat="ballad">
+                    <div class="card-top">
+                        <span class="mv-code">MV-01 • OFFICIAL VISUAL</span>
+                        <span class="status-pill">SPOTLIGHT</span>
+                    </div>
+                    <h4 class="km">ទំនុកស្នេហ៍ក្នុងរាត្រី (Nightfall Melody)</h4>
+                    <h4 class="en">Nightfall Melody — Official Music Video</h4>
+                    <p class="km">វីដេអូចម្រៀងមនោសញ្ចេតនា ដែលរួមបញ្ចូលរូបភាពស្អាត និងអារម្មណ៍ជ្រាលជ្រៅសម្រាប់ទស្សនិកជន។</p>
+                    <p class="en">An emotional music video pairing atmospheric cinematography with heartfelt melody and bilingual titles.</p>
+                    <div class="card-footer">
+                        <span class="mv-meta"><i class="fa-solid fa-headphones"></i> Ballad & Visual</span>
+                        <button class="inspect-btn"
+                            data-title="ទំនុកស្នេហ៍ក្នុងរាត្រី / Nightfall Melody"
+                            data-category="Ballad & Emotional Visual"
+                            data-format="HD Music Video & Audio Showcase"
+                            data-notes="Featured in the UNIVERSE HUOKAING THARA music video hub with cross-platform promotion.">
+                            <span class="km">មើលលម្អិត</span> / <span class="en">MV Details</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- MV 2 -->
+                <article class="mv-card" data-cat="upbeat">
+                    <div class="card-top">
+                        <span class="mv-code">MV-02 • RHYTHM</span>
+                        <span class="status-pill">NEW RELEASE</span>
+                    </div>
+                    <h4 class="km">ជីវិតរស់រវើក និងចង្វាក់ថ្មី</h4>
+                    <h4 class="en">Pulse & Horizon — Rhythm MV</h4>
+                    <p class="km">វីដេអូចម្រៀងបែបចង្វាក់រស់រវើក និងថាមពលខ្ពស់ សម្រាប់កម្មវិធីកម្សាន្ត និងការផ្សព្វផ្សាយ។</p>
+                    <p class="en">High-energy rhythm and upbeat visual release designed for entertainment spotlights and campaigns.</p>
+                    <div class="card-footer">
+                        <span class="mv-meta"><i class="fa-solid fa-volume-high"></i> Upbeat & Rhythm</span>
+                        <button class="inspect-btn"
+                            data-title="ជីវិតរស់រវើក និងចង្វាក់ថ្មី / Pulse & Horizon"
+                            data-category="Upbeat & Rhythm"
+                            data-format="Performance & Motion Visual"
+                            data-notes="Crafted for vibrant audience engagement across UNIVERSE HUOKAING THARA digital channels.">
+                            <span class="km">មើលលម្អិត</span> / <span class="en">MV Details</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- MV 3 -->
+                <article class="mv-card" data-cat="visual">
+                    <div class="card-top">
+                        <span class="mv-code">MV-03 • CYBER VISUAL</span>
+                        <span class="status-pill">FEATURED</span>
+                    </div>
+                    <h4 class="km">ពន្លឺសាយប័រ និងអនាគតឌីជីថល</h4>
+                    <h4 class="en">Cyber Neon & Future Sound</h4>
+                    <p class="km">វីដេអូចម្រៀងរចនាបថទំនើប សាយប័រ និងពន្លឺអ៊ីយ៉ុង ឆ្លុះបញ្ចាំងពីចក្ខុវិស័យបច្ចេកវិទ្យារបស់ក្រុម។</p>
+                    <p class="en">Futuristic neon-cyber visual music showcase reflecting the group's modern digital identity.</p>
+                    <div class="card-footer">
+                        <span class="mv-meta"><i class="fa-solid fa-bolt"></i> Visual & Cyber</span>
+                        <button class="inspect-btn"
+                            data-title="ពន្លឺសាយប័រ និងអនាគតឌីជីថល / Cyber Neon & Future Sound"
+                            data-category="Visual & Cyber"
+                            data-format="Holographic Visual Showcase"
+                            data-notes="Aligns with UNIVERSE HUOKAING THARA's signature dark holographic aesthetic and web portal design.">
+                            <span class="km">មើលលម្អិត</span> / <span class="en">MV Details</span>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Music Video Details Modal -->
+    <div id="mvModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">MUSIC VIDEO DOSSIER</span>
+            <h3 id="modalMvTitle">MV Title</h3>
+            <div class="modal-body">
+                <p><strong>Category:</strong> <span id="modalMvCategory" class="accent-txt"></span></p>
+                <p><strong>Format:</strong> <span id="modalMvFormat"></span></p>
+                <p id="modalMvNotes" class="modal-notes"></p>
+            </div>
+            <button id="closeMvModal" class="control-btn full-width">
+                <span class="km">បិទផ្ទាំង</span> / <span class="en">Close</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
